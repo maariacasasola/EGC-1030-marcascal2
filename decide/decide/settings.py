@@ -153,7 +153,7 @@ STATIC_URL = '/static/'
 # number of bits for the key, all auths should use the same number of bits
 KEYBITS = 256
 
-BASEURL = 'https://decide-1030-marcascal2.herokuapp.com/'
+BASEURL = 'https://decide-1030-marcascal2.herokuapp.com'
 APIS = {
         'authentication': BASEURL,
         'base': BASEURL,
