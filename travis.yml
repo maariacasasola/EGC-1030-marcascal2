@@ -20,3 +20,8 @@ script:
 branches:
   on:
   - master
+deploy:
+  provider: heroku
+  app: decide-1030-marcascal2
+  strategy: git
+  apikey: f5bd961e-47b0-474f-9f3e-d05dac31184c
